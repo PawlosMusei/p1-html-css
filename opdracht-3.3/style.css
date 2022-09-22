@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table{
     border-collapse: collapse;
     width: 100%;
@@ -8,4 +9,16 @@ th,td{
 }
 
 tbody :nth-child(even){background-color: #dddd;
+=======
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid #dddd;
+}
+
+tbody :nth-child(even){background-color: #dddd;
+>>>>>>> 584658ca53621f0f3558c51dd5a391dc8064b81f
 }

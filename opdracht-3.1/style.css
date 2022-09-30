@@ -7,13 +7,14 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Goldman", cursive;
+  font-family: "Bungee Spice", cursive;
+  background-color: black;
 }
 
 nav {
   display: flex;
-  width: 100%;
-  padding: 2rem;
+  width: 100vw;
+  padding: 2.5rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
@@ -27,7 +28,7 @@ nav ul {
   list-style-type: none;
 }
 nav li {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 0 4rem 0 4rem;
 }
 nav a {
@@ -37,3 +38,15 @@ nav a {
 nav img {
   width: 5vw;
 }
+h1, p, footer{
+  font-size: 2rem;
+  color: white ;
+}
+.ss { 
+  background-image: url(img/photo-1562813733-.avif);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{font-weight: bold;}

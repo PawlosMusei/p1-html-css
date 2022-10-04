@@ -48,8 +48,7 @@ li a {
   display: block;
   text-align: left;
 }
-.dropdown:hover
-.dropdowncontent {
+.dropdown:hover .dropdowncontent {
   display: flex;
 }
 nav ul {

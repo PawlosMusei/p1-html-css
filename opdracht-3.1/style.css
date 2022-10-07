@@ -33,9 +33,9 @@ li a {
   display: inline-block;
 }
 .dropdowncontent {
-  display: flex;
+  display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   background: white;
   min-width: 20vw;
   color: #00a8c7;
@@ -66,7 +66,6 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  float: right;
 }
 nav img {
   width: 5vw;

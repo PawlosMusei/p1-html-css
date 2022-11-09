@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: #131c27;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 8vw;
+}
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Pattaya", sans-serif;
+  margin-left: 2rem;
+}
+h1 {
+  font-size: xxx-large;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.beyond {
+  background-image: url(landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+div {
+  background-color: rgb(80, 88, 200);
+  height: 8vh;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+h4 {
+  margin-top: rem;
+  font-size: x-large;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(new-york-page.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #353637be;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: larger;
+}
+h2 {
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 0.2rem solid white;
+}
+.benefits {
+  min-height: 100vh;
+}
+.benefits-head {
+  background: #131c27;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.benefits-head h3 {
+  padding: 1rem;
+}
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 21.5rem;
+  height: 40vh;
+  background-color: white;
+  border-radius: 5px;
+  font-style: inherit;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1), 0px 20px 20px rgb(0, 0, 0, 0.1);
+}
+.p {
+  width: 10vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  /* position: relative; */
+}
+.titel {
+  border-bottom: none;
+  margin-right: 4rem;
+}
+.text {
+  margin-left: 5rem;
+
+}
+.card-head{
+  background-color: #131c27;
+}
+img{
+  height: 5vh;
+  width: 7vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 7rem
+}
